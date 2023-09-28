@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  script(src='/pets.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to Motion Dance Academy
+        div.small  Ignite Your Dancing Flame 
+    section#missionSection 
+        h1 Our Mission  
+        div.container1
+            div.card
+                h3 Dance With A Passion
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/1.png")
+
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ab.
+
+            div.card
+                h3 One Team, One Dream
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/3.png")
+
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ab.
+
+            div.card
+                h3 Move, Groove, HIP-HOP!
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/4.png")
+
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ab.
+
+    section#sponserSection 
+        h1 Our Sponsors 
+        div#sponsors 
+            img(src="/static/img/logo1.png", alt="Sponsor image", class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsor image", class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsor image", class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsor image", class="spImage")
+    

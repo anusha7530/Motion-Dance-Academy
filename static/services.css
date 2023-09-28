@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    min-height: 70vh;
+    margin: 43px 0;
+}
+h1{
+    margin-top: 21px;
+    font-size: 40px;
+    text-align: center;
+    color: #d12e2e;
+    font-family: 'Righteous', cursive;
+}
+h2{
+    text-align: center;
+    font-family: 'Carter One', cursive;
+}
+.serve{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+}
+p {
+    padding: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.box{
+    border: 2px solid black;
+    margin: 24px 79px;
+    border-radius: 1rem;
+    padding: 20px 37px;
+    background: linear-gradient(to bottom, #978f8f,#ff5757);
+
+}
